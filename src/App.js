@@ -6,6 +6,7 @@ import DashboardPage from "./components/dashboard/DashboardPage";
 import TransactionsPage from "./components/transactions/TransactionsPage";
 import InsightsPage from "./components/insights/InsightsPage";
 import LandingPage from "./components/landing/LandingPage";
+import Footer from "./components/layout/Footer";
 import "./index.css";
 
 function AppContent() {
@@ -63,6 +64,7 @@ function AppContent() {
         <main className="app-main-shell">
           {showLanding ? <LandingPage onOpenAppPage={openAppPage} /> : renderPage()}
         </main>
+        <Footer onOpenAppPage={openAppPage} />
       </div>
     </div>
   );
