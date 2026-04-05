@@ -1770,7 +1770,7 @@ body {
   cursor: pointer;
   transition: all var(--transition);
   border: none;
-  background: #d9c407;
+  background: #d5c107;
   color: #0f172a;
   box-shadow: 0 6px 28px rgba(0, 0, 0, 0.22);
 }
