@@ -1,6 +1,6 @@
 import {
   format, parseISO, startOfMonth, endOfMonth,
-  isWithinInterval, subMonths, startOfDay,
+  isWithinInterval, subMonths,
 } from "date-fns";
 import { INITIAL_BALANCE } from "../data/transactions";
 

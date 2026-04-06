@@ -4,7 +4,7 @@ import {
   Tooltip, ResponsiveContainer,
 } from "recharts";
 import { useApp } from "../../context/AppContext";
-import { getMonthlyData, filterByPeriod, formatCurrency } from "../../utils/finance";
+import { getMonthlyData, formatCurrency } from "../../utils/finance";
 
 const PERIOD_MONTHS = { THIS_MONTH: 1, LAST_3: 3, LAST_6: 6, ALL: 6 };
 
